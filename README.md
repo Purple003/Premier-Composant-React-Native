@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+# Premier Composant React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bienvenue dans le projet **Premier Composant React Native** ! Ce projet est une application mobile simple et élégante construite avec React Native et Expo, conçue pour démontrer la création et l'intégration de composants personnalisés.
 
-## Get started
+## 📱 Aperçu du Projet
 
-1. Install dependencies
+L'application présente une interface utilisateur propre composée d'un en-tête, d'un pied de page et d'une carte centrale interactive. Elle sert de base solide pour apprendre les fondamentaux de React Native, notamment la gestion de la mise en page (Layout) et le style.
 
-   ```bash
-   npm install
-   ```
+## ✨ Fonctionnalités
 
-2. Start the app
+*   **En-tête (AppHeader)** : Un composant d'en-tête stylisé pour la navigation ou le titre de l'application.
+*   **Pied de page (AppFooter)** : Un composant de pied de page informatif.
+*   **Carte Principale (MainCard)** : Un composant central affichant un message de bienvenue avec une ombre portée et un style moderne pour une interface riche.
+*   **Mise en page Flexbox** : Utilisation de Flexbox pour une disposition responsive et centrée du contenu.
+*   **Support Multiplateforme** : Fonctionne sur Android, iOS et Web grâce à Expo.
 
-   ```bash
-   npx expo start
-   ```
+## 📸 Captures d'écran
 
-In the output, you'll find options to open the app in a
+Voici un aperçu de l'application sur mobile et sur le web.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Mobile | Web |
+| :---: | :---: |
+| ![Aperçu Mobile](https://via.placeholder.com/300x600?text=Mobile+Screenshot+Place) | ![Aperçu Web](https://via.placeholder.com/600x400?text=Web+Screenshot+Place) |
+| *Rendu sur appareil mobile* | *Rendu sur navigateur web* |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+> **Note :** Veuillez remplacer les liens d'images ci-dessus par vos propres captures d'écran réelles une fois l'application lancée.
 
-## Get a fresh project
+## 🚀 Installation
 
-When you're ready, run:
+Pour exécuter ce projet localement, suivez ces étapes :
 
-```bash
-npm run reset-project
+1.  **Prérequis** : Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé.
+
+2.  **Cloner le dépôt** :
+    ```bash
+    git clone <votre-url-de-depot>
+    cd premier-component-rn
+    ```
+
+3.  **Installer les dépendances** :
+    ```bash
+    npm install
+    ```
+
+4.  **Lancer l'application** :
+    ```bash
+    npx expo start
+    ```
+
+## 📖 Utilisation
+
+Une fois le serveur de développement lancé :
+
+*   **Pour Mobile** : Scannez le QR code affiché dans le terminal avec l'application **Expo Go** (disponible sur Android et iOS).
+*   **Pour Web** : Appuyez sur `w` dans le terminal pour ouvrir l'application dans votre navigateur par défaut.
+
+## 📂 Structure du Projet
+
+```
+premier-component-rn/
+├── components/          # Composants réutilisables
+│   ├── AppHeader.js     # En-tête de l'application
+│   ├── AppFooter.js     # Pied de page de l'application
+│   └── MainCard.js      # Carte de contenu principale
+├── App.js               # Point d'entrée principal de l'application
+├── app.json             # Configuration Expo
+├── package.json         # Dépendances et scripts
+└── README.md            # Documentation du projet
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🛠 Technologies
 
-## Learn more
+*   [React Native](https://reactnative.dev/)
+*   [Expo](https://expo.dev/)
+*   JavaScript (ES6+)
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+*Fait avec ❤️ pour l'apprentissage de React Native.*
