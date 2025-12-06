@@ -72,13 +72,12 @@ premier-component-rn/
 
 *   [React Native](https://reactnative.dev/)
 *   [Expo](https://expo.dev/)
-*   JavaScript (ES6+)
 
 ---
----
 
-## Réalisé par
+
+### Réalisé par
 - Arroche Aya  
 
-## Encadré par
+### Encadré par
 - Mohamed LACHGAR 
