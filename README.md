@@ -2,11 +2,11 @@
 
 Bienvenue dans le projet **Premier Composant React Native** ! Ce projet est une application mobile simple et élégante construite avec React Native et Expo, conçue pour démontrer la création et l'intégration de composants personnalisés.
 
-## 📱 Aperçu du Projet
+## Aperçu du Projet
 
 L'application présente une interface utilisateur propre composée d'un en-tête, d'un pied de page et d'une carte centrale interactive. Elle sert de base solide pour apprendre les fondamentaux de React Native, notamment la gestion de la mise en page (Layout) et le style.
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 *   **En-tête (AppHeader)** : Un composant d'en-tête stylisé pour la navigation ou le titre de l'application.
 *   **Pied de page (AppFooter)** : Un composant de pied de page informatif.
@@ -14,18 +14,18 @@ L'application présente une interface utilisateur propre composée d'un en-tête
 *   **Mise en page Flexbox** : Utilisation de Flexbox pour une disposition responsive et centrée du contenu.
 *   **Support Multiplateforme** : Fonctionne sur Android, iOS et Web grâce à Expo.
 
-## 📸 Captures d'écran
+## Captures d'écran
 
 Voici un aperçu de l'application sur mobile et sur le web.
 
 | Mobile | Web |
 | :---: | :---: |
-| ![Aperçu Mobile](https://via.placeholder.com/300x600?text=Mobile+Screenshot+Place) | ![Aperçu Web](https://via.placeholder.com/600x400?text=Web+Screenshot+Place) |
+| <img width="404" height="758" alt="Screenshot 2025-12-06 150504" src="https://github.com/user-attachments/assets/c3428828-20ab-4a4e-b64f-216807152fb9" /> | <img width="1907" height="942" alt="Screenshot 2025-12-06 114130" src="https://github.com/user-attachments/assets/52b96e3f-70bb-452d-8649-e6d1395f29b9" />
+ |
 | *Rendu sur appareil mobile* | *Rendu sur navigateur web* |
 
-> **Note :** Veuillez remplacer les liens d'images ci-dessus par vos propres captures d'écran réelles une fois l'application lancée.
 
-## 🚀 Installation
+## Installation
 
 Pour exécuter ce projet localement, suivez ces étapes :
 
@@ -47,14 +47,14 @@ Pour exécuter ce projet localement, suivez ces étapes :
     npx expo start
     ```
 
-## 📖 Utilisation
+## Utilisation
 
 Une fois le serveur de développement lancé :
 
 *   **Pour Mobile** : Scannez le QR code affiché dans le terminal avec l'application **Expo Go** (disponible sur Android et iOS).
 *   **Pour Web** : Appuyez sur `w` dans le terminal pour ouvrir l'application dans votre navigateur par défaut.
 
-## 📂 Structure du Projet
+##  Structure du Projet
 
 ```
 premier-component-rn/
@@ -68,11 +68,17 @@ premier-component-rn/
 └── README.md            # Documentation du projet
 ```
 
-## 🛠 Technologies
+##  Technologies
 
 *   [React Native](https://reactnative.dev/)
 *   [Expo](https://expo.dev/)
 *   JavaScript (ES6+)
 
 ---
-*Fait avec ❤️ pour l'apprentissage de React Native.*
+---
+
+## Réalisé par
+- Arroche Aya  
+
+## Encadré par
+- Mohamed LACHGAR 
